@@ -4,6 +4,6 @@
 
 # How to run the program:
 
-1. Create schema and table by running the sql script found in the "sql script" folder in your MySQL Workbench (connection credentials of the database and inside the .env file must match).
-2. Run the main.exe file.
-3. Import Postman collections from the "tests" folder to test out each API endpoint.
+1. Create schema and table by running the sql script found in the *sql* script" folder in your MySQL Workbench (connection credentials of the database and inside the *.env* file must match).
+2. Run the *main.exe* file.
+3. Import Postman collections from the *tests* folder to test out each API endpoint.
