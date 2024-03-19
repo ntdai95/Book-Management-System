@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "ad8315e5-5002-4224-bbf7-40871188dd74",
+		"name": "BOOKSTORE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21883167"
+	},
+	"item": [
+		{
+			"name": "GET ALL BOOKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9010/book",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE BOOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Zero to one\",\r\n    \"Author\": \"Peter Thiel\",\r\n    \"Publication\": \"Penguin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9010/book",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BOOK BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9010/book/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE BOOK",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Zero to one\",\r\n    \"Author\": \"Peter Thiel\",\r\n    \"Publication\": \"Orion\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9010/book/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE BOOK",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:9010/book/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9010",
+					"path": [
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
