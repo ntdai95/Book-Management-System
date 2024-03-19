@@ -6,4 +6,4 @@
 
 1. Create schema and table by running the sql script found in the **sql script** folder in your MySQL Workbench app (connection credentials of the database and inside the **.env** file must match).
 2. Run the **main.exe** file found in the **main** folder inside the **cmd** folder.
-3. Import the BOOKSTORE collections from the **tests** folder into your Postman app to test out each API endpoint.
+3. Import the **BOOKSTORE** collections from the **tests** folder into your Postman app to test out each API endpoint.
